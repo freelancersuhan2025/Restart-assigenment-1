@@ -1,12 +1,15 @@
 /* All Tag style start */
 *{margin: 0px;
   padding: 0px;
-  font-family: ;}
+  font-family: 'Lato', sans-serif;}
 /* All Tag style end */
 
 /* all body style  */
+html{background-color:#6b6c6d;}
+
+
 body{width:800px;
-     box-shadow: 0px 0px 6px 1px gray;
+     background-color: white;
      margin: auto;}
 /* all body style  */
 
@@ -17,24 +20,30 @@ header{height:380px;
       justify-content: center;
       align-items: center;
     }
-header>.headerBanerText{border: 1px solid red;
-                        width: 45%;
+header>.headerBanerText{width: 45%;
                         padding-top:20px;
                        height:fit-content;}
-.headerBanerText>.Title{font-size:1.7rem;}
+.headerBanerText>.Title{font-size:2rem;
+                        color:#272727;
+                        font-weight:900;
+
+                      }
 .headerBanerText>.Desc{font-size: 0.5rem;
-                       color: #777876;
-                       margin: 10px 0px;
-                       line-height: 12px;}
+                  color: rgba(48, 48, 48, 0.475);
+                  font-weight: 400;
+                      margin: 10px 0px;
+                       line-height: 12px;
+                       line-height: 12px;
+                      }
 
 .btn{background-color: #E55473;
      border: none;
      border-radius: 4px;
-    color:white;
-    font-size:10px;
-    padding:8px 15px;}                       
-header>.Banerimg{border: solid black 1px;
-                width: 35%;
+     font-weight: 400;
+    color:rgb(237, 237, 237);
+    font-size:9px;
+    padding:9px 18px;}                       
+header>.Banerimg{width: 35%;
                height: 100%;
                position: relative;
               }
@@ -50,7 +59,6 @@ header>.Banerimg>img{width: 100%;
 .ourFeaturedFlocontaner{
   height:370px;
   width: 80%;
-  border: 1px solid rebeccapurple;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -61,21 +69,27 @@ header>.Banerimg>img{width: 100%;
 }
 
 .FTitle{font-size:1rem;
-       color: ;}
-.Fdesc{font-size:.5rem;
-       color: ;}
-.flwerboxscontaner{border: 1px solid rgb(237, 237, 9);
-                     width: 100%;                
+  color:#272727;
+  margin-bottom:20px;}
+.Fdesc{font-size:.5rem;       
+  color: rgba(48, 48, 48, 0.475);}
+.flwerboxscontaner{width: 100%;                
                      display: flex;
                      margin-top:15px;
                    justify-content: space-between;
                    gap: 10px;}
-.pbox{border: 2px solid red;
-      width: 100%;}
+.pbox{width: 100%;}
 .pbox>a{text-decoration:none;
         font-size: .5rem;
         margin-top:20px;
+        background-color: #d55773;
+        color:rgba(52, 52, 52, 0.761);
+        padding: 5px 10px;
+        font-weight:400;
+        border-radius: 4px;
       display: inline-block;}
+      .pbox>a:hover{background-color: red;
+                  color: white;}      
 
      
       
@@ -112,27 +126,31 @@ header>.Banerimg>img{width: 100%;
 
 /* helping sectin all style start */
 .HelpingSection{background-color:#F4F4F4;
-               height:150px;
+               height:130px;
                width: 80%;
                margin: auto;
                border-radius:8px;
                display: flex;
                justify-content: center;
                align-items: center;
-               margin-top:10px;
+               margin-top:30px;
                margin-bottom:50px;
               }
 .HelpingSection>table{width:100%;
-                      text-align: center;}              
+                      text-align: center;}  
+tr:first-child>td{padding-bottom: 8px;}                                 
 .HelpingSection td{
-                    font-size: .8rem;} 
+  color: rgba(54, 54, 54, 0.905);
+                    font-size: .6rem;
+                    letter-spacing: .4px;
+                   font-weight:700;} 
 
  .HelpingSection td img{width: 40px;}
 /* helping sectin all style start */
 
 /* hot deal sale up start */
 
-.hotdealcontent{border: 1px solid rebeccapurple;
+.hotdealcontent{
                background-color:#FDF6F8;
                  width:100%;
                  height:270px;
@@ -142,28 +160,35 @@ header>.Banerimg>img{width: 100%;
                  justify-content: center;
                  margin-bottom:50px;
                 }       
-.hotdealcontent > .text{border:1px solid red;
-                        width: 50%;
+.hotdealcontent > .text{width: 50%;
                          text-align: center;}
-.hotdealcontent > .text  > h1{font-size:1.5rem;}
+.hotdealcontent > .text  > h1{font-size:1rem;}
 .hotdealcontent > .text  > h1 >span{color: tomato;}
-.hotdealcontent > .text  > p{font-size:.5rem;}
+.hotdealcontent > .text  > p{font-size:.5rem;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    line-height: 12px;
+                     font-weight: 400;
+                  color: rgba(45, 45, 45, 0.575);}
 
 
-.hotdealcontent > .img{border: 1px solid black;
-                         width: 25%;}
+.hotdealcontent > .img{width: 25%;}
 
 .hotdealcontent > .img >img{width:150px;}
                  
 /* hot deal sale up end */
 
 /* instagram style start  */
-.intagram{border: 1px solid rebeccapurple;
-           width: 80%;
+.intagram{width: 80%;
            margin: auto;
            margin-bottom:50px;
            text-align: center;}
-.intagram>p{font-size: 10px;}           
+.intagram>h1{font-size: 1rem;
+  margin-bottom: 10px;}           
+.intagram>p{font-size: 9px;
+  color: rgba(146, 146, 146, 0.981);
+    margin-bottom: 20px;
+}           
 .intagramPhotContaner{
                       display: flex;
                      justify-content: space-evenly;                    
@@ -189,21 +214,29 @@ header>.Banerimg>img{width: 100%;
                 margin-bottom:50px;
                }            
 .getcontan{
-  border: 1px solid rebeccapurple;
   width:80%;
   height: fit-content;
   text-align: center;}
-.getcontantitle{font-size:1.2rem;}
-.getcontandesc{font-size:.6rem;}
+.getcontantitle{font-size:1rem;
+               font-weight:800;}
 
-.subbox{border: 1px solid rgb(39, 19, 169);
+.getcontandesc{font-size:.59rem;
+               margin-top:4px;
+               color: rgba(146, 146, 146, 0.981);
+               }
+
+.subbox{ margin-top:16px;
             display: flex;
              align-items: center;
             justify-content: center;
             gap:5%;}
 .subbox>input[type="text"]{width:60%;
-                           padding:5px;}
-.subbox>input[type="text"]::placeholder{font-size: 10px;}                           
+                         border-radius:4px;
+                           background-color:  #FFF;
+                           border: none;
+                           padding:6px;}
+.subbox>input[type="text"]::placeholder{font-size:9px;
+color: #7b7b7a;}                           
 /* Get The Lates Deals section end  */
 
 /* all footer style start  */
@@ -221,10 +254,13 @@ footer{background-color:#111010;
   height: fit-content;
 }
 .foottitle{margin-bottom: 20px;
-           font-size:1.8rem;}
-.foottitle>span{color:#E55473;}
+           font-size:1.5rem;}
+.foottitle>span{color:#e55473d0;}
 .footdesc{margin-bottom: 20px;
-          font-size:9px;}
-.footCopy{color: gainsboro;
-          font-size:9px;}
+          font-size:9px;
+          color: rgba(208, 206, 206, 0.9);}
+
+.footCopy{
+  color: rgba(255, 255, 255, 0.40);
+          font-size:8px;}
 /* all footer style End  */
