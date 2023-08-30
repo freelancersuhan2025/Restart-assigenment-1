@@ -48,32 +48,40 @@ header>.Banerimg>img{width: 100%;
 
 /* Our Featured Flowers Section start  */
 .ourFeaturedFlocontaner{
-  height:500px;
+  height:370px;
   width: 80%;
   border: 1px solid rebeccapurple;
   margin: auto;
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   text-align: center;
-
+  margin-top:40px;
 }
-.flwerboxscontaner{border: 2px solid rgb(237, 237, 9);
-                     width: 100%;   
-                     margin-top:70px;              
+
+.FTitle{font-size:1rem;
+       color: ;}
+.Fdesc{font-size:.5rem;
+       color: ;}
+.flwerboxscontaner{border: 1px solid rgb(237, 237, 9);
+                     width: 100%;                
                      display: flex;
+                     margin-top:15px;
                    justify-content: space-between;
                    gap: 10px;}
 .pbox{border: 2px solid red;
-      width: 100%;
+      width: 100%;}
+.pbox>a{text-decoration:none;
+        font-size: .5rem;
+        margin-top:20px;
+      display: inline-block;}
 
-       }
+     
       
  
 .flwerbox1{
-         height:250px;
+         height:220px;
          background-color:#F1DDE7;
             border-top-left-radius:50% ;
           border-top-right-radius:50% ;
@@ -81,7 +89,7 @@ header>.Banerimg>img{width: 100%;
           justify-content: center;
           align-items: end;}
 .flwerbox2{
-         height:250px;
+         height:220px;
          background-color: #D9EFF0;
             border-top-left-radius: 50% ;
           border-top-right-radius:50% ;
@@ -89,7 +97,7 @@ header>.Banerimg>img{width: 100%;
           justify-content: center;
           align-items: end;}
 .flwerbox3{
-           height:250px;
+           height:220px;
          background-color:#E3EBDB;
             border-top-left-radius:50% ;
           border-top-right-radius:50% ;
@@ -97,9 +105,9 @@ header>.Banerimg>img{width: 100%;
           justify-content: center;
           align-items: end;}
           
-.flwerbox1>img{height:100%;}
- .flwerbox2>img{height:60%;}
- .flwerbox3>img{height:100%;}            
+.flwerbox1>img{height:85%;}
+ .flwerbox2>img{height:85%;}
+ .flwerbox3>img{height:85%;}            
 /* Our Featured Flowers Section end  */
 
 /* helping sectin all style start */
@@ -127,7 +135,7 @@ header>.Banerimg>img{width: 100%;
 .hotdealcontent{border: 1px solid rebeccapurple;
                background-color:#FDF6F8;
                  width:100%;
-                 height:250px;
+                 height:270px;
                  margin: auto;
                  display: flex;
                  align-items: center;
@@ -137,11 +145,15 @@ header>.Banerimg>img{width: 100%;
 .hotdealcontent > .text{border:1px solid red;
                         width: 50%;
                          text-align: center;}
+.hotdealcontent > .text  > h1{font-size:1.5rem;}
+.hotdealcontent > .text  > h1 >span{color: tomato;}
+.hotdealcontent > .text  > p{font-size:.5rem;}
+
 
 .hotdealcontent > .img{border: 1px solid black;
                          width: 25%;}
 
-.hotdealcontent > .img >img{width: 100px;}
+.hotdealcontent > .img >img{width:150px;}
                  
 /* hot deal sale up end */
 
@@ -181,8 +193,8 @@ header>.Banerimg>img{width: 100%;
   width:80%;
   height: fit-content;
   text-align: center;}
-.getcontantitle{font-size:1.4rem;}
-.getcontandesc{font-size:.7rem;}
+.getcontantitle{font-size:1.2rem;}
+.getcontandesc{font-size:.6rem;}
 
 .subbox{border: 1px solid rgb(39, 19, 169);
             display: flex;
